@@ -1,0 +1,16 @@
+{
+  "name": "lockd-in-booking-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "backend": "node backend/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "stripe": "^14.21.0"
+  }
+}
